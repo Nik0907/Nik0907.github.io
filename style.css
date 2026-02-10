@@ -67,3 +67,94 @@ body {
 .content p {
   line-height: 1.6;
 }
+
+/* PACKAGES */
+
+.packages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.package {
+  background: #020617;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #1e293b;
+  text-align: center;
+}
+
+.package h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 1.4rem;
+  color: #38bdf8;
+  margin-bottom: 1rem;
+}
+
+.package ul {
+  list-style: none;
+  margin-bottom: 1.2rem;
+}
+
+.package li {
+  margin-bottom: 0.5rem;
+  color: #cbd5f5;
+}
+
+.featured {
+  border: 2px solid #38bdf8;
+  transform: scale(1.03);
+}
+
+.buy-btn {
+  background: #38bdf8;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buy-btn:hover {
+  background: #0ea5e9;
+}
+
+/* TESTIMONIALS */
+
+.testimonials {
+  margin-top: 4rem;
+}
+
+.testimonial {
+  background: #020617;
+  padding: 1.2rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  border: 1px dashed #334155;
+}
+
+.placeholder {
+  color: #94a3b8;
+  font-style: italic;
+}
+
+.coming-soon {
+  margin-top: 1rem;
+  color: #94a3b8;
+}
+
+/* PAYMENT NOTE */
+
+.payment-note {
+  margin-top: 3rem;
+  padding: 1rem;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  color: #94a3b8;
+  text-align: center;
+}
