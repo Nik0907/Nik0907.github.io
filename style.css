@@ -585,3 +585,54 @@ margin:10px 0;
 font-weight:600;
 color:#2ec5ff;
 }
+
+.pricing{
+text-align:center;
+margin:80px auto;
+max-width:1100px;
+}
+
+.pricing-table{
+display:grid;
+grid-template-columns:2fr 1fr 1fr 1fr;
+gap:20px;
+align-items:center;
+}
+
+.features{
+text-align:left;
+color:#ccc;
+}
+
+.features p{
+margin:15px 0;
+}
+
+.plan{
+background:rgba(255,255,255,0.05);
+border:1px solid rgba(255,255,255,0.1);
+border-radius:15px;
+padding:20px;
+transition:0.3s;
+}
+
+.plan:hover{
+transform:translateY(-8px);
+border:1px solid #2ec5ff;
+}
+
+.plan p{
+margin:15px 0;
+font-size:1.2rem;
+}
+
+.highlight{
+border:2px solid #2ec5ff;
+transform:scale(1.05);
+}
+
+.price{
+margin:10px 0 20px;
+font-weight:600;
+color:#2ec5ff;
+}
