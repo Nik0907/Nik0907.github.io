@@ -535,3 +535,53 @@ nav a::after {
 nav a:hover::after {
     width: 100%;
 }
+
+
+.shop-section{
+max-width:1100px;
+margin:80px auto;
+text-align:center;
+padding:20px;
+}
+
+.shop-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(260px,1fr));
+gap:40px;
+margin-top:40px;
+}
+
+.product-card{
+
+background:rgba(255,255,255,0.05);
+border:1px solid rgba(255,255,255,0.1);
+
+border-radius:20px;
+padding:25px;
+
+transition:0.3s;
+overflow:hidden;
+}
+
+.product-card img{
+width:100%;
+border-radius:12px;
+margin-bottom:15px;
+transition:0.3s;
+}
+
+.product-card:hover{
+transform:translateY(-10px);
+border:1px solid #2ec5ff;
+}
+
+.product-card:hover img{
+transform:scale(1.05);
+}
+
+.price{
+font-size:1.3rem;
+margin:10px 0;
+font-weight:600;
+color:#2ec5ff;
+}
