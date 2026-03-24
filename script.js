@@ -10,3 +10,16 @@ window.addEventListener('scroll', () => {
         }
     });
 });
+
+const plans = document.querySelectorAll('.plan');
+
+window.addEventListener('scroll', () => {
+    plans.forEach(plan => {
+        const position = plan.getBoundingClientRect().top;
+        const screenHeight = window.innerHeight;
+
+        if (position < screenHeight - 100) {
+            plan.classList.add('show');
+        }
+    });
+});
