@@ -637,3 +637,68 @@ font-weight:600;
 color:#2ec5ff;
 }
 
+/* MOBILE */
+@media (max-width: 768px) {
+
+  /* NAV */
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .nav a {
+    font-size: 0.9rem;
+  }
+
+  /* HERO */
+  .hero {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 0.95rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* GRID (HOME + SHOP) */
+  .steps-grid,
+  .shop-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* PRODUCT CARD */
+  .product-card {
+    padding: 20px;
+  }
+
+  /* PRICING TABLE */
+  .pricing-table {
+    grid-template-columns: 1fr;
+  }
+
+  .features {
+    display: none; /* skrije levi stolpec */
+  }
+
+  .plan {
+    margin-bottom: 20px;
+  }
+
+  /* GUMBI */
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+}
